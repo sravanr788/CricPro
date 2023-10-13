@@ -46,9 +46,9 @@ table,th,td{
     border-collapse: collapse;
     text-align: left;
     border-bottom:1px solid #838383;
-   
   }
-  td{
+  table{
+    box-shadow: 1px 1px 2px #717171;
     background-color: white;
   }
   td:nth-child(3),td:nth-child(4){
@@ -57,9 +57,6 @@ table,th,td{
   td:last-child{
     text-align: right;
     width: 10px;
-  }
-  td:nth-child(6){
-    /* width: 25px; */
   }
   .bluelink{
     color: #4590F0;
@@ -81,7 +78,6 @@ table,th,td{
     .none {
       display: block;
       position: absolute;
-      /* bottom :70px; */
       transform: translateY(-5%);
     }
   }
